@@ -7,8 +7,8 @@ NOTE(s):
   - A scalar first unit quaternion is a one dimensional row or column vector of length four.
     - **Use Equation (22) on Page 264 of Reference [ 1 ]
            EXCEPT:
-             [ 1 ]  Equation (22) is scalar LAST.
-             [ 2 ]  Here scalar FIRST is used.**
+            - [ 1 ]  Equation (22) is scalar LAST.
+            - [ 2 ]  Here scalar FIRST is used.**
 - Ordinary Differential Equations (ODEs) are solved using the  Matlab "ode45" function to apply the Dorman-Prince 4(5) explicit embedded adaptive time step Runge-Kutta method.
   - Error limits in Matlab "ode45" function set to 10<sup>-13</sup>.
 - State Vector Components:
